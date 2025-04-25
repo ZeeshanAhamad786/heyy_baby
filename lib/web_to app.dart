@@ -101,6 +101,8 @@ class _WebsiteConvertAppState extends State<WebsiteConvertApp> {
         return true;
       },
       child: Obx(() => Scaffold(
+        appBar: AppBar(centerTitle: true,title: Text("Heyy Babyy",style:
+        TextStyle(fontWeight: FontWeight.bold,color: Colors.black),),),
         body: SafeArea(
           child: RefreshIndicator(
             onRefresh: _refreshPage,
